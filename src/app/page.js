@@ -1,91 +1,40 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import styles from "./page.module.css";
+import Image from "next/image";
+import brain from "../assets/Imagem1-2.jpg";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main className={styles.container}>
+      <div className={styles.presentation}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          A neurociência é o estudo do sistema nervoso, incluindo o cérebro,
+          medula espinhal, e nervos. É uma área interdisciplinar que combina
+          elementos de biologia, psicologia, medicina para entender como o
+          sistema nervoso funciona, como ele influencia o comportamento e como
+          ele pode ser afetado por doenças e lesões
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        <p>
+          A neurociência investiga questões como: como o neurônios se comunicam
+          entre si, como o cérebro processa as informações sensoriais, como a
+          memória é formada e mantida, como o cérebro controla o comportamento,
+          e como doenças afetam o cérebro
+        </p>
+        <p>
+          A neurociência explica através dos seus conceitos e anos de estudo,
+          até mesmo como você pode mudar o seu comportamento, e mudar sua
+          rotina, e mudar seus hábitos, assim se tornando uma pessoa mais
+          produtiva e com mais excelência no que faz.
+        </p>
+        <p>
+          Aqui você vai ler artigos, postagens e curiosidades da neurociência,
+          de comportamento e até de doenças como depressão, ansiedade, TDAH
+          e muito mais, e aprender como manejar isso tudo e se tornar alguém
+          melhor e mais produtivo.
+        </p>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className={styles.divImage}>
+        <Image src={brain} alt="cerebro" />
       </div>
     </main>
-  )
+  );
 }
