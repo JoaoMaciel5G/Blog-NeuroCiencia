@@ -1,6 +1,4 @@
-export const revalidate = 30;
-
-export default async function tdhtdhgt({ params }) {
+export default async function data({ params }) {
   const { id } = params;
   const response = await fetch(`http://localhost:4000/api/${id}`);
   const user = await response.json()
