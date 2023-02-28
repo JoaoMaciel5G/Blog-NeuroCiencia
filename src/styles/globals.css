@@ -10,15 +10,12 @@ body, html{
   width: 100%;
 }
 body{
-  background-image: url("../assets/sistema-nervoso-humano.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(10px);
+  background-color: #000000;
 }
 
 .header{
   display: flex;
-  background-color: rgb(28, 69, 146);
+  background-color: #4e4e4e;
   justify-content: space-between;
 }
 .title{
@@ -35,7 +32,7 @@ body{
   margin-right: 30px;
 }
 .navBar a{
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.3em;
   margin-right: 20px;
@@ -45,8 +42,8 @@ body{
   cursor: pointer;
   color: white;
 }
-.navBar a:hover{
-  color: rgb(9, 28, 63);
+.navBar a:hover, #icon:hover{
+  color: rgb(228, 231, 16);
 }
 
 

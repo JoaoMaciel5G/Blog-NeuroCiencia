@@ -2,15 +2,9 @@
 
 import Link from 'next/link'
 import {AiOutlineMenu} from "react-icons/ai"
-import { useRef } from 'react'
-import './globals.css'
+import '../styles/globals.css'
 
 export default function RootLayout({ children }) {
-  const dialogRef = useRef()
-
-  function dialog(){
-    dialogRef.current.showModal()
-  }
   return (
     <html lang="pt-br">
       <head />
@@ -25,11 +19,6 @@ export default function RootLayout({ children }) {
             <Link href="/post">Curiosidades</Link>
             <AiOutlineMenu id='icon'/>
           </nav>
-          <dialog ref={dialogRef}>
-            <p>
-              This is an open dialog window
-            </p>
-          </dialog>
         </header>
         {children}
       </body>
