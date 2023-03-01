@@ -10,13 +10,12 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <header className="header">
-          <div style={{padding: "30px"}}>
+          <div>
             <h2 className="title">JM Neurociências</h2>
           </div>
           <nav className='navBar'>
-            <Link href="/posts">Postagens</Link>
-            <Link href="/">Artigos</Link>
-            <Link href="/post">Curiosidades</Link>
+            <Link href="/posts">Artigos</Link>
+            <Link href="/curiosity">Curiosidades</Link>
           </nav>
           <AiOutlineMenu id='icon'/>
         </header>

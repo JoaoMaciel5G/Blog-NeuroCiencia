@@ -1,7 +1,7 @@
-export default async function postagens() {
+export default async function Posts() {
     return (
       <main>
-        <h2>oii</h2>
+        <h2>Posts</h2>
       </main>
     );
-  }
+}

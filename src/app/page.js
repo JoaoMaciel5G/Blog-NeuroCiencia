@@ -1,6 +1,4 @@
 import styles from "../styles/page.module.css"
-import Image from "next/image";
-import brain from "../assets/imageBrain.jpg";
 
 export default function Home() {
   return (
@@ -31,9 +29,6 @@ export default function Home() {
           e muito mais, e aprender como manejar isso tudo e se tornar alguém
           melhor e mais produtivo.
         </p>
-      </div>
-      <div className={styles.divImage}>
-        <Image src={brain} alt="cerebro" />
       </div>
     </main>
   );
