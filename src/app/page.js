@@ -11,13 +11,13 @@ export default function Home() {
           medula espinhal, e nervos. É uma área interdisciplinar que combina
           elementos de biologia, psicologia, medicina para entender como o
           sistema nervoso funciona, como ele influencia o comportamento e como
-          ele pode ser afetado por doenças e lesões
+          ele pode ser afetado por doenças e lesões.
         </p>
         <p>
           A neurociência investiga questões como: como o neurônios se comunicam
           entre si, como o cérebro processa as informações sensoriais, como a
           memória é formada e mantida, como o cérebro controla o comportamento,
-          e como doenças afetam o cérebro
+          e como doenças afetam o cérebro.
         </p>
         <p>
           A neurociência explica através dos seus conceitos e anos de estudo,

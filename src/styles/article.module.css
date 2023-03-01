@@ -1,7 +1,8 @@
 .container{
-    width: 45%;
-    margin: 0 auto;
-    border: 2px solid rgb(219, 199, 14);
+    width: 50%;
+    margin: 40px auto;
+    border: 2px solid white;
+    border-radius: 20px;
     padding: 30px;
 }
 .title{
@@ -14,8 +15,12 @@
 .description{
     color: #ffffff;
     white-space: pre-wrap;
-    border: 1px solid #ffffff;
     font-size: 1.2em;
     padding: 15px;
     font-family: Arial
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 80%;
+    }
 }

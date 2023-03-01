@@ -1,21 +1,21 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 80%;
 }
 .presentation{
     color: white;
-    margin-top: 50px;
-    padding: 40px;
-    width: 40%;
-    height: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
 .presentation p{
-    margin-bottom: 20px;
     font-size: 1.3em;
+    margin-bottom: 10px;
 }
   
 .divImage{
@@ -24,18 +24,4 @@
 }
 .divImage img{
     border-radius: 50%;
-    transform: translateY(0px);
-    animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float{
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(-30px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
 }

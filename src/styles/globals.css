@@ -17,6 +17,7 @@ body{
   display: flex;
   background-color: #4e4e4e;
   justify-content: space-between;
+  align-items: center;
 }
 .title{
   font-size: 2em;
@@ -41,11 +42,11 @@ body{
   font-size: 3em;
   cursor: pointer;
   color: white;
+  margin-right: 30px;
 }
 .navBar a:hover, #icon:hover{
   color: rgb(228, 231, 16);
 }
-
 
 @keyframes typewriter {
   from {
@@ -54,5 +55,10 @@ body{
   to {
     width: 100%;
     
+  }
+}
+@media only screen and (max-width: 770px){
+  .navBar{
+      display: none;
   }
 }

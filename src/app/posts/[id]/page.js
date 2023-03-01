@@ -1,7 +1,9 @@
 import styles from "../../../styles/article.module.css"
 
+const url = process.env.NEXT_PUBLIC_URL
+
 export async function generateStaticParams(){
-    const res = await fetch("https://api-blog.cyclic.app/articles")
+    const res = await fetch(url)
     const td = await res.json()
 
     return td.map((todo)=>({
@@ -10,7 +12,7 @@ export async function generateStaticParams(){
 }
 
 async function getData(id){
-    const res = await fetch(`https://api-blog.cyclic.app/articles/${id}`);
+    const res = await fetch(`${url}/${id}`);
     return await res.json()
 }
 

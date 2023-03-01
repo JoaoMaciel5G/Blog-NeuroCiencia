@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
             <Link href="/posts">Postagens</Link>
             <Link href="/">Artigos</Link>
             <Link href="/post">Curiosidades</Link>
-            <AiOutlineMenu id='icon'/>
           </nav>
+          <AiOutlineMenu id='icon'/>
         </header>
         {children}
       </body>
