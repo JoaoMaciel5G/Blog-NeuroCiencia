@@ -19,15 +19,15 @@ export default function Home() {
         </p>
         <p>
           A neurociência explica através dos seus conceitos e anos de estudo,
-          até mesmo como você pode mudar o seu comportamento, e mudar sua
-          rotina, e mudar seus hábitos, assim se tornando uma pessoa mais
-          produtiva e com mais excelência no que faz.
+          até mesmo como você pode mudar o seu comportamento,
+          e mudar seus hábitos, assim se tornando uma pessoa mais
+          produtiva.
         </p>
         <p>
           Aqui você vai ler artigos, postagens e curiosidades da neurociência,
           de comportamento e até de doenças como depressão, ansiedade, TDAH
           e muito mais, e aprender como manejar isso tudo e se tornar alguém
-          melhor e mais produtivo.
+          mais produtivo.
         </p>
       </div>
     </main>

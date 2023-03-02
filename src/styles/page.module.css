@@ -5,8 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 87%;
-    width: 100%;
 }
 .presentation{
     color: #ffffff;
@@ -16,31 +14,35 @@
     max-height: 90%;
     width: 50%;
     padding: 20px;
+    overflow-y: hidden;
     border-radius: 20px;
-    overflow: hidden;
 }
 .presentation p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
 }
+@media screen and (min-width: 460px){
+    .container{
+        height: 87%;
+    }
+}
+@media screen and (max-width: 1120px){
+    .presentation p{
+        font-size: 1.2em;
+    }
 
-@media only screen and (max-width: 1150px){
-    .presentation p{
-        font-size: 1.2rem;
+}
+@media screen and (max-width: 910px){
+    .presentation{
+        width: 90%;
     }
 }
-@media only screen and (max-width: 910px){
-    .presentation{
-        width: 80%;
-    }
-}
-@media only screen and (max-width: 575px){
+@media screen and (max-width: 520px){
     .presentation p{
-        font-size: 1.1rem;
+        font-size: 1.1em;
     }
     .presentation{
-        height: 90%;
-        width: 95%;
+        margin-top: 20px;
     }
 }

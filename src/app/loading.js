@@ -1,5 +1,16 @@
+import styles from "../styles/loading.module.css"
+
 export default function Loading() {
-    return (
-        <h2 style={{color: "white"}}>Loading...</h2>
-    )
+  return (
+    <div class="loading">
+      <h2>pushing pixels</h2>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  );
 }
