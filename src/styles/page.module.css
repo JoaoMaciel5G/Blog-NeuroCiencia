@@ -1,7 +1,4 @@
 .container{
-    background-image: url("../assets/neurociencia-scaled.jpg");
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;

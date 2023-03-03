@@ -11,6 +11,11 @@ body, html{
   overflow-x: hidden;
 }
 
+body{
+  background-image: url("../assets/neurociencia-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .header{
   display: flex;
   background-color: #35414d;
@@ -18,7 +23,7 @@ body, html{
   align-items: center;
   padding: 30px 30px;
 }
-.title{
+.title h2{
   font-size: 2em;
   color: white;
   white-space: nowrap;

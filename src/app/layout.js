@@ -10,14 +10,14 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <header className="header">
-          <div>
-            <h2 className="title">JM Neurociências</h2>
+          <div className="title">
+            <h2>JM Neurociências</h2>
           </div>
-          <nav className='navBar'>
+          <nav className="navBar">
             <Link href="/posts">Artigos</Link>
             <Link href="/curiosity">Curiosidades</Link>
           </nav>
-          <AiOutlineMenu id='icon'/>
+          <AiOutlineMenu id="icon"/>
         </header>
         {children}
       </body>

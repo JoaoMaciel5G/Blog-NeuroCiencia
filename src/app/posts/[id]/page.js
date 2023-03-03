@@ -21,13 +21,13 @@ export default async function Page({params}){
 
     const res = await getData(id)
     return(
-        <div className={styles.container}>
+        <main className={styles.container}>
             <div>
                 <h2 className={styles.title}>{res.title}</h2>
             </div>
             <div>
                 <p className={styles.description}>{res.description}</p>
             </div>
-        </div>
+        </main>
     )
 }
