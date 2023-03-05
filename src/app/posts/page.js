@@ -4,7 +4,7 @@ import Link from 'next/link'
 const url = process.env.NEXT_PUBLIC_URL
 
 async function getTitlesArticles(){
-  const res = await fetch(`http://localhost:3008/articles`);
+  const res = await fetch(url);
   return await res.json()
 }
 export default async function Posts() {
