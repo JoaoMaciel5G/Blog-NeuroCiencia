@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
           </div>
           <nav className="navBar">
             <Link href="/posts">Artigos</Link>
-            <Link href="/curiosity">Curiosidades</Link>
           </nav>
           <AiOutlineMenu id="icon"/>
         </header>

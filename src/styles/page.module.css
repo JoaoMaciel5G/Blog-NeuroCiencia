@@ -6,7 +6,6 @@
 .presentation{
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.493);
-    backdrop-filter: blur(10px);
     border: 2px solid black;
     max-height: 90%;
     width: 50%;
