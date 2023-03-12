@@ -9,13 +9,12 @@
 }
 .title{
     margin: 0 auto;
-    width: 20%;
 }
 .title h2{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.1em;
-    margin: 10px 0 ;
+    margin: 10px auto ;
     border-bottom: 1px solid #ffffff;
 }
 .link{
@@ -27,6 +26,11 @@
 }
 .link:hover{
     color: rgb(49, 107, 194);
-    font-size: 1.3em;
     transition: 1s;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        width: 90%;
+    }
 }
